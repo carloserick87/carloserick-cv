@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Develpment source
+src/
+
+# Development configuration
+.gitignore
+tsconfig.json
+
+# GitHub
+.github/
+
+
+

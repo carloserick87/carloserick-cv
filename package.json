@@ -1,0 +1,45 @@
+{
+  "name": "carloserick-cv",
+  "version": "1.0.0",
+  "description": "Carlos Erick's interactive CV in the terminal",
+  "main": "dist/index.js",
+  "bin": {
+    "carloserick-cv": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "start": "node dist/index.js",
+    "test": "node --test",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "frontend-developer",
+    "carlos-erick"
+  ],
+  "author": "Carlos Erick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carloserick87/carloserick-cv.git"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "rimraf": "^6.1.4",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.8.1",
+    "chalk": "^4.1.2",
+    "figlet": "^1.13.0",
+    "gradient-string": "^3.0.0"
+  }
+}
