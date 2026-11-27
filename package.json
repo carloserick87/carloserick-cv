@@ -2,6 +2,7 @@
   "name": "carloserick-cv",
   "version": "1.0.2",
   "description": "Carlos Erick's interactive CV in the terminal",
+  "homepage": "https://www.carloserickdev.com",
   "main": "dist/index.js",
   "bin": {
     "carloserick-cv": "dist/index.js"
